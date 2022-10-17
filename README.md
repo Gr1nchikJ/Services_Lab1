@@ -16,8 +16,31 @@ link
 
 ## Screenshots
 ![image](https://i.imgur.com/DEAfmt9.jpg)
+![image](https://i.imgur.com/9tIaT9Y.png)
+
+## Виконання
+Створимо образ Docker
+---
+![image](https://i.imgur.com/uZbLknv.png)
+---
+Створимо Services
+---
+![image](https://i.imgur.com/dheqHiC.jpg)
+---
+Створимо Deployment для сервісів
+---
+![image](https://i.imgur.com/DUuS2GD.jpg)
+---
+Використаємо Ingress
+---
+![image](https://i.imgur.com/pd8gvRJ.jpg)
+---
+![image](https://i.imgur.com/I9NEMji.jpg)
+---
+![image](https://i.imgur.com/v7hB57W.jpg)
 
 ## Для запуску:
+```
 docker build -t service1:0.1 -f services/service1/Dockerfile . - створення image
 docker run -p 8080:80 service1:0.1 - запуск контейнеру
 docker ps -a - всі images
@@ -30,3 +53,5 @@ kubectl apply -f deployment.yaml
 kubectl get pods
 kubectl -f apply ingress.yaml
 kubectl expose deployment hello-kubernetes --type=NodePort
+```
+

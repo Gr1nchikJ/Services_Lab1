@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  webapplicationservice:
+    image: ${DOCKER_REGISTRY-}webapplicationservice
+    build:
+      context: .
+      dockerfile: Dockerfile

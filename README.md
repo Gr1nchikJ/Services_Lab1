@@ -3,8 +3,8 @@
 ## Team
 - Denys Grynenko: [AutoService](https://github.com/Gr1nchikJ/Services_Lab1/blob/master/Auto.cs), [AutoController](https://github.com/Gr1nchikJ/Services_Lab1/blob/master/Controllers/AutoController.cs)
 - Denys Sorokin: [CalendarService](https://github.com/Gr1nchikJ/Services_Lab1/blob/master/Calendar.cs), [CalendarController](https://github.com/Gr1nchikJ/Services_Lab1/blob/master/Controllers/CalendarController.cs)
-- Stanislav Logvynskyi: ... service
-- Vadym Kozachenko: ... service
+- Stanislav Logvynskyi: [... service](https://github.com/VadimKost/MicroServ)
+- Vadym Kostyanko: [... service](https://github.com/VadimKost/MicroServ)
 
 ## Guideline
 Посилання на Docker Hub:

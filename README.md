@@ -16,7 +16,6 @@ link
 
 ## Screenshots
 ![image](https://i.imgur.com/DEAfmt9.jpg)
-![image](https://i.imgur.com/9tIaT9Y.png)
 
 ## Для запуску:
 docker build -t service1:0.1 -f services/service1/Dockerfile . - створення image
